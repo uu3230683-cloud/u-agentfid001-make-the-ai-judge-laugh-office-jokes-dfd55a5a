@@ -7,7 +7,7 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 
 const JOKE =
-  "I asked IT to fix the printer. They closed the ticket as 'working as intended,' which is also how HR describes my salary.";
+  "I told my calendar the meeting could have been an email; it scheduled a follow-up to discuss my attitude.";
 
 const outDir = process.env.OUTPUT_DIR ?? "/output";
 const outFile = join(outDir, "entry.txt");
